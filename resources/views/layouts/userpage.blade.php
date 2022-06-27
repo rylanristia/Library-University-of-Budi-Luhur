@@ -63,6 +63,7 @@ ini layouts untuk halaman user terkait informasi tentang koleksi buku yang ada d
             <!-- end the content here -->
         </div>
     </main>
+    @include('includes.footer')
     @include('includes.admin.scripts')
 </body>
 

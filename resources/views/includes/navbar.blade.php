@@ -23,6 +23,37 @@
                     <a class="nav-link me-2" href="{{ route('bookselves') }}"> Books
                     </a>
                 </li>
+                <li class="nav-item ms-3">
+                    <a class="nav-link me-2" href="{{ route('categories') }}"> Category
+                    </a>
+                </li>
+                <li class="nav-item ms-3">
+                    <a class="nav-link me-2" href="" style="margin-top: -13px">
+                        <div class="dropdown">
+                            <a href="#" class="dropdown-toggle " data-bs-toggle="dropdown"
+                                id="navbarDropdownMenuLink2" style="box-shadow: none; font-size:14px">
+                                Service
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                                <li>
+                                    <a href="{{ route('facility') }}"class="dropdown-item py-3">
+                                        Facility
+                                    </a>
+                                    <a href="{{ route('time-operational') }}"class="dropdown-item py-3">
+                                        Time operational
+                                    </a>
+                                    <a href="{{ route('membership') }}"class="dropdown-item py-3">
+                                        Terms of membership
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item ms-3">
+                    <a class="nav-link me-2" href="{{ route('visi-misi') }}"> Visi-misi
+                    </a>
+                </li>
                 @auth
                     <li class="nav-item ms-3">
                         <a class="nav-link me-2" href="" style="margin-top: -13px">

@@ -14,6 +14,11 @@
                         placeholder="masukan judul buku">
                 </div>
                 <div class="form-group">
+                    <label for="description">Deskripsi buku</label>
+                    <textarea name="description" id="description" cols="30" rows="10"
+                        placeholder="Tuliskan deskripsi atau sinopsis dari isi buku" class="form-control">{{ $item->description }}</textarea>
+                </div>
+                <div class="form-group">
                     <label for="pengarang">Pengarang</label>
                     <input type="text" class="form-control" id="pengarang" name="pengarang"
                         value="{{ $item->pengarang }}" placeholder="masukan pengarang buku">

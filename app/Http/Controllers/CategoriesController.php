@@ -8,6 +8,14 @@ use Illuminate\Http\Request;
 
 class CategoriesController extends Controller
 {
+    public function index()
+    {
+        $books = BukuModel::all();
+        $categories = KategoriModel::all();
+        $totalcategories = $categories->count();
+
+        return view('pages.category', compact('books', 'categories', 'totalcategories'));
+    }
     public function category($kategori_id)
     {
         $data = BukuModel::with(['categories'])->where('kategori_id', $kategori_id)->get();

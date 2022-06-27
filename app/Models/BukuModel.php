@@ -12,7 +12,7 @@ class BukuModel extends Model
     protected $table = 'buku';
 
     protected $fillable = [
-        'judul', 'slug', 'pengarang', 'kategori_id', 'thumbnail', 'created_by', 'updated_by'
+        'judul', 'description', 'slug', 'pengarang', 'kategori_id', 'thumbnail', 'created_by', 'updated_by'
     ];
 
     public function categories()

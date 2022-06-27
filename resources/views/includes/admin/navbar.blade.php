@@ -15,6 +15,7 @@
                     <span class="input-group-text text-body"><i class="fas fa-search" aria-hidden="true"></i></span>
                     <input type="text" class="form-control" placeholder="Type here...">
                 </div>
+                <a href="{{ route('home') }}" class="mt-3 ms-3"><button class="btn btn-primary">Home</button></a>
             </div>
         </div>
     </div>

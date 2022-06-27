@@ -12,6 +12,11 @@
                     <input type="text" class="form-control" id="judul" name="judul" placeholder="masukan judul buku">
                 </div>
                 <div class="form-group">
+                    <label for="description">Deskripsi buku</label>
+                    <textarea name="description" id="description" cols="30" rows="10"
+                        placeholder="Tuliskan deskripsi atau sinopsis dari isi buku" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
                     <label for="pengarang">Pengarang</label>
                     <input type="text" class="form-control" id="pengarang" name="pengarang"
                         placeholder="masukan pengarang buku">

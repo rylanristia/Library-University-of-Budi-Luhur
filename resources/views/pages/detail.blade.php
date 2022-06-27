@@ -13,7 +13,7 @@
                     <img src="{{ asset('storage/' . $item->thumbnail) }}" alt="" style="width: 100%" class="rounded">
                 </div>
                 <div class="col-lg-8">
-                    <table style="width: 50%">
+                    <table style="width: 100%">
                         <tbody>
                             <tr>
                                 <td>Judul</td>
@@ -39,6 +39,10 @@
                     </table>
                 </div>
             </div>
+        </div>
+        <div class="card p-5 mt-4">
+            <h4>Description</h4>
+            <p class="pt-3">{{ $item->description }}</p>
         </div>
     </div>
 @endsection

@@ -51,4 +51,8 @@
             </div>
         </div>
     </div>
+    <div class="card p-5 mt-4">
+        <h4>Description</h4>
+        <p class="pt-3">{{ $item->description }}</p>
+    </div>
 @endsection
